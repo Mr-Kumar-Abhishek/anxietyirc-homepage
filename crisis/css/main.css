@@ -1,0 +1,93 @@
+
+#mainbody div {
+	margin-bottom: 25px;
+	background-color: #eee;
+	padding: 10px 10px 10px 0px;
+	border-radius: 5px;
+}
+#mainbody div:hover {
+	background-color: #ddd;
+}
+#sep {
+	text-align: center;
+	width: 60%;
+	margin: 20px auto;
+	height: 1px;
+	background-color: grey;
+	min-width: 800px;
+}
+span.p1 {
+	padding-left: 10px;
+	display: block;
+	font-size: 1.25em;
+	color: orange;
+	margin-bottom: 5px;
+}
+
+span.p2 {
+	padding-left: 10px;
+	display: inline-block;
+	margin-left: 23px;
+	line-height: 1.5;
+}
+
+a {	text-decoration:none; color: #41B7D8; }
+a:visited { color: #41B7D8; }
+a:hover { text-decoration: underline;  }
+#menu a { text-decoration: none; color: black; }
+
+* {	font: normal 1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+
+#mainbody {
+	text-align: left;
+	margin: 20px auto;
+	width: 50%;
+	min-width: 700px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+#menu {
+	margin-top: 40px;	
+	text-align: center;
+}
+.menuitem {
+	font: normal 1.25em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 4px 10px;
+	transition: .4s;
+}
+.menuitem:hover {
+	border-radius: 5px;
+	background-color: #41B7D8;
+	color: #fff;
+}
+
+.link {
+	font: normal 1.25em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 4px 10px;
+	transition: .4s;
+}
+.link:hover {
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #41B7D8;
+	color: #fff;
+}
+#current {
+	border-radius: 5px;
+	background-color: #666;
+	color: white;
+}
+
+.threeq { font-size: 0.75em; }
+
+.quoted {
+	display: inline-block;
+	margin: 5px 10px;
+	padding: 6px 20px;
+	background-color: #ccc;
+	border: 0px solid #333;
+}
